@@ -27,7 +27,6 @@ def parse_proc_net_status(filename):
             rem_port = int(rem_port, 16)
             values = (sl,local_address,local_port,rem_address,rem_port,st,tx_queue,rx_queue,tr,tm_when,retrnsmt,uid,timeout,inode)
             print(('{:>12} ' * len(values)).format(*values))
-            # print(sl,local_address,local_port,rem_address,rem_port,st,tx_queue,rx_queue,tr,tm_when,retrnsmt,uid,timeout,inode, sep='\t')
 
 if __name__ == "__main__":
     if len(sys.argv) <= 1:
