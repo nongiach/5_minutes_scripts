@@ -16,7 +16,7 @@ $ ./parse_proc_net_tcp.py /proc/net/tcp
 // TODO: tcp6, udp, udp6, raw
 
 ## Anonymize hashfiles like ntds
-Sometimes no you need to anonymize hashes files link ntds dump to share them for cracking. This script replace all usernames with fake names.
+Sometimes no you need to anonymize hashes files like ntds dump to share them for cracking. This script replace all usernames with fake names.
 
 ```sh
 $ ./anonymize_hash_files.py input_hashes.txt anonymized_hash.txt link_hashes.txt
