@@ -1,5 +1,10 @@
 # 5 minutes scripts
-Reusable scripts written in 5 minutes for fun an profit.
+Reusable scripts written in 5 minutes for fun and no profit.
+
+# 1: Script parsing /proc/net/tcp for pentest : ./parse_proc_net_tcp.py
+# 2: Script anonymizing hashes for pentest to delegate the bruteforce : ./anonymize_hash_files.py
+# 3: Script generating a wordcloud that is contained within a form : ./masked_word_cloud.py
+# 4: Script to delete all Tweets of a given user : ./delete_all_tweet.py
 
 ## TCP connexions
 
@@ -24,3 +29,8 @@ $ ./anonymize_hash_files.py input_hashes.txt anonymized_hash.txt link_hashes.txt
 * param 1: [INPUT] the input hashfiles
 * param 2: [OUTPUT] the anonymize hashfiles output
 * param 3: [OUTPUT] the file link between anonymized name and real names
+
+## Delete all tweets
+
+Update the ./delete_all_tweet.py to contain your Twitter API tokens and run to delete the tweets.
+The code deletes only lastest 10 Tweets for security purpose, adapt it if you wish to delete all.

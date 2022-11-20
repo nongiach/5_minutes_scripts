@@ -15,6 +15,8 @@ import clize
 from wordcloud import WordCloud, STOPWORDS
 import collections
 
+# subfinder -d [domain_name_here] > /tmp/domains
+# rg -N '[^.]*\.[^.]*\.[^.]*$' /tmp/domains -o > /tmp/top_domains
 
 ## give this script a text of one line per word and a random image
 ## the text will be counted and show in a wordcloud by frequency
