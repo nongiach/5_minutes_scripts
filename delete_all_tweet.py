@@ -1,7 +1,6 @@
 #!/usr/bin/python3
 
 import tweepy
-from collections import Counter
 
 
 BEARER_TOKEN = ""
