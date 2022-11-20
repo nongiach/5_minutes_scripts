@@ -2,6 +2,15 @@
 
 import tweepy
 
+"""
+This script will delete all of the tweets in the specified account.
+
+You will need to get a Twitter secret tokens to use this
+script, you can do so here https://developer.twitter.com/en/portal/dashboard
+
+@requirements: Python 3+, Tweepy
+author: @chaignc
+"""
 
 BEARER_TOKEN = ""
 
