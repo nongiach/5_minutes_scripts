@@ -1,10 +1,10 @@
 # 5 minutes scripts
 Reusable scripts written in 5 minutes for fun and no profit.
 
-# 1: Script parsing /proc/net/tcp for pentest : ./parse_proc_net_tcp.py
-# 2: Script anonymizing hashes for pentest to delegate the bruteforce : ./anonymize_hash_files.py
-# 3: Script generating a wordcloud that is contained within a form : ./masked_word_cloud.py
-# 4: Script to delete all Tweets of a given user : ./delete_all_tweet.py
+* 1: Script parsing /proc/net/tcp for pentest : ./parse_proc_net_tcp.py
+* 2: Script anonymizing hashes for pentest to delegate the bruteforce : ./anonymize_hash_files.py
+* 3: Script generating a wordcloud that is contained within a form : ./masked_word_cloud.py
+* 4: Script to delete all Tweets of a given user : ./delete_all_tweet.py
 
 ## TCP connexions
 
