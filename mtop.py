@@ -30,6 +30,7 @@ def byte_to_human(byte):
         return f"{byte / (1024*1024):.1f} MB"
     else:
         return f"{byte / (1024*1024*1024):.1f} GB"
+
 def main():
     process_memory = get_total_used_ram_by_process_name()
     
